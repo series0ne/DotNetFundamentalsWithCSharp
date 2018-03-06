@@ -1,0 +1,45 @@
+﻿.class private auto ansi beforefieldinit CILSample.Program
+	extends [System.Runtime]System.Object
+{
+	// Methods
+	.method private hidebysig static 
+		void Main (
+			string[] args
+		) cil managed 
+	{
+		// Method begins at RVA 0x2050
+		// Code size 15 (0xf)
+		.maxstack 2
+		.entrypoint
+		.locals init (
+			[0] int32,
+			[1] int32,
+			[2] int32
+		)
+
+		IL_0000: nop
+		IL_0001: ldc.i4.s 123
+		IL_0003: stloc.0
+		IL_0004: ldc.i4 456
+		IL_0009: stloc.1
+		IL_000a: ldloc.0
+		IL_000b: ldloc.1
+		IL_000c: add
+		IL_000d: stloc.2
+		IL_000e: ret
+	} // end of method Program::Main
+
+	.method public hidebysig specialname rtspecialname 
+		instance void .ctor () cil managed 
+	{
+		// Method begins at RVA 0x206b
+		// Code size 8 (0x8)
+		.maxstack 8
+
+		IL_0000: ldarg.0
+		IL_0001: call instance void [System.Runtime]System.Object::.ctor()
+		IL_0006: nop
+		IL_0007: ret
+	} // end of method Program::.ctor
+
+} // end of class CILSample.Program

@@ -1,0 +1,24 @@
+﻿        {
+00007FF8A0420484  sub         esp,40h  
+00007FF8A0420487  mov         rbp,rsp  
+00007FF8A042048A  mov         rsi,rcx  
+00007FF8A042048D  lea         rdi,[rbp+2Ch]  
+00007FF8A0420491  mov         ecx,5  
+00007FF8A0420496  xor         eax,eax  
+00007FF8A0420498  rep stos    dword ptr [rdi]  
+00007FF8A042049A  mov         rcx,rsi  
+00007FF8A042049D  mov         qword ptr [rbp+60h],rcx  
+00007FF8A04204A1  cmp         dword ptr [7FF8A02C51D0h],0  
+00007FF8A04204A8  je          00007FF8A04204AF  
+00007FF8A04204AA  call        00007FF900033650  
+00007FF8A04204AF  nop  
+            int a = 123;
+00007FF8A04204B0  mov         dword ptr [rbp+34h],7Bh  
+            int b = 456;
+00007FF8A04204B7  mov         dword ptr [rbp+30h],1C8h  
+            int c = a + b;
+00007FF8A04204BE  mov         eax,dword ptr [rbp+34h]  
+00007FF8A04204C1  mov         edx,dword ptr [rbp+30h]  
+00007FF8A04204C4  add         eax,edx  
+00007FF8A04204C6  mov         dword ptr [rbp+2Ch],eax  
+        }
