@@ -55,6 +55,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PassByValueSample", "Lesson
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructureSample", "Lesson 4\StructureSample\StructureSample.csproj", "{1B7BCEF5-85BE-42A6-ACE5-0B2A176FB067}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventSample", "Lesson 4\EventSample\EventSample.csproj", "{4DF686C3-8418-4E45-A1AE-E37B1DA7B9B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -109,6 +111,10 @@ Global
 		{1B7BCEF5-85BE-42A6-ACE5-0B2A176FB067}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B7BCEF5-85BE-42A6-ACE5-0B2A176FB067}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B7BCEF5-85BE-42A6-ACE5-0B2A176FB067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DF686C3-8418-4E45-A1AE-E37B1DA7B9B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DF686C3-8418-4E45-A1AE-E37B1DA7B9B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DF686C3-8418-4E45-A1AE-E37B1DA7B9B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DF686C3-8418-4E45-A1AE-E37B1DA7B9B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -126,6 +132,7 @@ Global
 		{72998842-4DD8-4954-906C-F6F30EC1E947} = {4883942A-C9F3-49A7-ABDE-14CFCC7D8EC2}
 		{439DE636-7084-4539-B9C2-DE2D491EDFE8} = {4883942A-C9F3-49A7-ABDE-14CFCC7D8EC2}
 		{1B7BCEF5-85BE-42A6-ACE5-0B2A176FB067} = {4883942A-C9F3-49A7-ABDE-14CFCC7D8EC2}
+		{4DF686C3-8418-4E45-A1AE-E37B1DA7B9B1} = {4883942A-C9F3-49A7-ABDE-14CFCC7D8EC2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {14788744-A8FB-46E2-9D89-B00F72BBD685}
