@@ -22,7 +22,7 @@ namespace EnumerationSample
                     fruitColor = "green";
                     break;
                 case Fruit.Banana:
-                    fruitColor = "banana";
+                    fruitColor = "yellow";
                     break;
                 case Fruit.Grape:
                     fruitColor = "red";
@@ -35,8 +35,8 @@ namespace EnumerationSample
         private static void PrintConsoleColors()
         {
             ConsoleColor[] colors = (ConsoleColor[])Enum.GetValues(typeof(ConsoleColor));
-            
-            foreach(ConsoleColor color in colors)
+
+            foreach (ConsoleColor color in colors)
             {
                 Console.ForegroundColor = color;
                 Console.WriteLine($"The console color is {color}. The underlying value is {(int)color}");

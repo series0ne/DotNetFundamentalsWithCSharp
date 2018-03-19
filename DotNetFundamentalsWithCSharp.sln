@@ -24,6 +24,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 4", "Lesson 4", "{48
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 5", "Lesson 5", "{BFEAB176-62DA-44D8-9A98-CC5CA2E641D7}"
+	ProjectSection(SolutionItems) = preProject
+		Lesson 5\Lesson 5.pptx = Lesson 5\Lesson 5.pptx
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 6", "Lesson 6", "{6C2BE7E5-6BC0-40DD-B43F-7925BEEEA220}"
 EndProject
@@ -57,7 +60,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructureSample", "Lesson 4
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventSample", "Lesson 4\EventSample\EventSample.csproj", "{4DF686C3-8418-4E45-A1AE-E37B1DA7B9B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonStructuresSample", "Lesson 4\CommonStructuresSample\CommonStructuresSample.csproj", "{6ED8CED2-34AB-4F9A-B332-E6B234091EFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonStructuresSample", "Lesson 4\CommonStructuresSample\CommonStructuresSample.csproj", "{6ED8CED2-34AB-4F9A-B332-E6B234091EFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
