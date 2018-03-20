@@ -15,7 +15,10 @@
             {
                 Console.Clear();
 
-                incrementedValues.ToList().ForEach(o => Console.WriteLine(o));
+                foreach(ValueWrapper incrementedValue in incrementedValues)
+                {
+                    Console.WriteLine(incrementedValue);
+                }
 
                 Console.ReadKey();
             }
