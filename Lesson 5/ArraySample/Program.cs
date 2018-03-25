@@ -17,7 +17,7 @@
 
         private static void SetNumbers(int[] numbers, int start)
         {
-            for(int i = 0; i < numbers.Length; i++)
+            for (int i = 0; i < numbers.Length; i++)
             {
                 numbers[i] = start++;
             }
@@ -25,7 +25,7 @@
 
         private static void WriteNumbers(int[] numbers)
         {
-            for(int i = 0; i < numbers.Length; i++)
+            for (int i = 0; i < numbers.Length; i++)
             {
                 Console.WriteLine($"Number at index {i} = {numbers[i]}");
             }

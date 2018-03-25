@@ -74,6 +74,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorStateMachineSample"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursionSample", "Lesson 5\RecursionSample\RecursionSample.csproj", "{DEF21E0C-8220-4CA3-99EB-32D44CC46AF2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Challenges", "Challenges", "{D337E802-D764-4D1D-8410-96D3C69C1F8E}"
+	ProjectSection(SolutionItems) = preProject
+		Challenges\.NET Fundamentals with C#.md = Challenges\.NET Fundamentals with C#.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
