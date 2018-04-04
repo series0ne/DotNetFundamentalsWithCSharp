@@ -15,7 +15,7 @@
                 .ToArray();
         }
 
-        public int GetMinimumNumerOfCoins(int value)
+        public int GetMinimumNumberOfCoins(int value)
         {
             int result = 0;
             

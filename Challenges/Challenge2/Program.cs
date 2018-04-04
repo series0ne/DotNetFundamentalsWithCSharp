@@ -8,7 +8,7 @@
         {
             CoinsOfADenomination coinsOfADenomination = new CoinsOfADenomination(new int[] { 50, 20, 5, 10, 2, 200, 100, 1 });
 
-            Console.WriteLine(coinsOfADenomination.GetMinimumNumerOfCoins(1335));
+            Console.WriteLine(coinsOfADenomination.GetMinimumNumberOfCoins(1056));
 
             Console.Read();
         }
