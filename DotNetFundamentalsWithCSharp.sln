@@ -34,6 +34,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 6", "Lesson 6", "{6C
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 7", "Lesson 7", "{DD888EAA-23A6-47CE-A64F-3770ECB3816A}"
+	ProjectSection(SolutionItems) = preProject
+		Lesson 7\Lesson 7.pptx = Lesson 7\Lesson 7.pptx
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 8", "Lesson 8", "{D27E1C87-FAC6-43F9-8AD4-463A7114A8C2}"
 EndProject
@@ -92,17 +95,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEnumerableSample", "Advanc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnonymousTypeSample", "Lesson 6\AnonymousTypeSample\AnonymousTypeSample.csproj", "{F427C366-41C6-40C1-AA9A-04FA97D20B07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicSample", "Lesson 6\DynamicSample\DynamicSample.csproj", "{20C00EFB-D0CF-452F-A4BB-BF8D24C3FBAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicSample", "Lesson 6\DynamicSample\DynamicSample.csproj", "{20C00EFB-D0CF-452F-A4BB-BF8D24C3FBAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpandoObjectSample", "Lesson 6\ExpandoObjectSample\ExpandoObjectSample.csproj", "{15A920A5-AF82-4DC4-A9BC-3FE34C396DCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpandoObjectSample", "Lesson 6\ExpandoObjectSample\ExpandoObjectSample.csproj", "{15A920A5-AF82-4DC4-A9BC-3FE34C396DCD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionSample", "Lesson 6\ExceptionSample\ExceptionSample.csproj", "{D6B79D59-A46C-4E6A-BED0-0A40C541D4C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethodSample", "Lesson 6\ExtensionMethodSample\ExtensionMethodSample.csproj", "{A5798854-6740-4FC1-97A6-4358E8677965}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethodSample", "Lesson 6\ExtensionMethodSample\ExtensionMethodSample.csproj", "{A5798854-6740-4FC1-97A6-4358E8677965}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqOrderBySample", "Lesson 6\LinqOrderBySample\LinqOrderBySample.csproj", "{64DF626F-04B7-429B-808C-8FCF4D3546E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqOrderBySample", "Lesson 6\LinqOrderBySample\LinqOrderBySample.csproj", "{64DF626F-04B7-429B-808C-8FCF4D3546E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqFilterSample", "Lesson 6\LinqFilterSample\LinqFilterSample.csproj", "{D9C88440-92D2-4F68-9443-3CBA1E631C91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqFilterSample", "Lesson 6\LinqFilterSample\LinqFilterSample.csproj", "{D9C88440-92D2-4F68-9443-3CBA1E631C91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncronousSample", "Lesson 7\AsyncronousSample\AsyncronousSample.csproj", "{1478D1F9-C21D-4CF9-8CC7-1172766B6AA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp7Sample", "Lesson 7\CSharp7Sample\CSharp7Sample.csproj", "{3A73A250-29C7-41AE-A31C-4184A346B8F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp6Sample", "Lesson 7\CSharp6Sample\CSharp6Sample.csproj", "{4C8D32BC-B3B1-40CC-8618-D75C9138F00D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestSample", "Lesson 7\UnitTestSample\UnitTestSample.csproj", "{C266DABB-FD00-48C1-AE76-E2D7E8C326F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -226,6 +237,22 @@ Global
 		{D9C88440-92D2-4F68-9443-3CBA1E631C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9C88440-92D2-4F68-9443-3CBA1E631C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9C88440-92D2-4F68-9443-3CBA1E631C91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1478D1F9-C21D-4CF9-8CC7-1172766B6AA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1478D1F9-C21D-4CF9-8CC7-1172766B6AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1478D1F9-C21D-4CF9-8CC7-1172766B6AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1478D1F9-C21D-4CF9-8CC7-1172766B6AA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A73A250-29C7-41AE-A31C-4184A346B8F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A73A250-29C7-41AE-A31C-4184A346B8F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A73A250-29C7-41AE-A31C-4184A346B8F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A73A250-29C7-41AE-A31C-4184A346B8F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C8D32BC-B3B1-40CC-8618-D75C9138F00D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C8D32BC-B3B1-40CC-8618-D75C9138F00D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C8D32BC-B3B1-40CC-8618-D75C9138F00D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C8D32BC-B3B1-40CC-8618-D75C9138F00D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C266DABB-FD00-48C1-AE76-E2D7E8C326F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C266DABB-FD00-48C1-AE76-E2D7E8C326F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C266DABB-FD00-48C1-AE76-E2D7E8C326F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C266DABB-FD00-48C1-AE76-E2D7E8C326F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -261,6 +288,10 @@ Global
 		{A5798854-6740-4FC1-97A6-4358E8677965} = {6C2BE7E5-6BC0-40DD-B43F-7925BEEEA220}
 		{64DF626F-04B7-429B-808C-8FCF4D3546E7} = {6C2BE7E5-6BC0-40DD-B43F-7925BEEEA220}
 		{D9C88440-92D2-4F68-9443-3CBA1E631C91} = {6C2BE7E5-6BC0-40DD-B43F-7925BEEEA220}
+		{1478D1F9-C21D-4CF9-8CC7-1172766B6AA0} = {DD888EAA-23A6-47CE-A64F-3770ECB3816A}
+		{3A73A250-29C7-41AE-A31C-4184A346B8F3} = {DD888EAA-23A6-47CE-A64F-3770ECB3816A}
+		{4C8D32BC-B3B1-40CC-8618-D75C9138F00D} = {DD888EAA-23A6-47CE-A64F-3770ECB3816A}
+		{C266DABB-FD00-48C1-AE76-E2D7E8C326F5} = {DD888EAA-23A6-47CE-A64F-3770ECB3816A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {14788744-A8FB-46E2-9D89-B00F72BBD685}
