@@ -26,7 +26,8 @@
             {
                 Write("Enter number of beans to trade for a cow: ");
 
-                int.TryParse(ReadLine(), out int beans);
+                int beans;
+                int.TryParse(ReadLine(), out beans);
 
                 jack?.TradeCowForBeans(beans);
 

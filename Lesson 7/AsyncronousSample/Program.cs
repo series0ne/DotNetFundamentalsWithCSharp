@@ -7,14 +7,15 @@
 
     internal static class Program
     {
-        private static void Main(string[] args)
+        private static async Task Main(string[] args)
         {
-            Task.Run(async () => {
-                string result = await HashAsync(Guid.NewGuid().ToByteArray(), 5);
-                Console.WriteLine(result);
-            });
+            DateTime start = DateTime.UtcNow;
+            Task<string> calculateHashAsyncTask = HashAsync(Guid.NewGuid().ToByteArray(), 7);
 
             Console.WriteLine("Calculating hash...");
+            Console.WriteLine(await calculateHashAsyncTask);
+
+            Console.WriteLine($"Elapsed time: {DateTime.UtcNow - start}");
 
             Console.Read();
         }
